@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primeira_linha {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.menu .logo img {
+    width: 120px;
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.barra_pesquisa {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 25px;
+    margin-top: 5px
+}
+
+.barra_pesquisa input {
+    border: none;
+    outline: 0;
+    width: 485px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.barra_pesquisa img{
+    width: 20px;
+}
+
+.barra_pesquisa a img {
+    margin-right: 10px;
+}
+
+.login {
+    margin-left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.login img{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;  
+    width: 20px;
+}
+
+.opcoes ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.metodos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.metodos a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+a:hover {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+li:hover {
+    background-color: #3a3f50;
+}
+
+#tools {
+    margin-left: 80px;
+}
+
+#seguranca {
+    margin-left: 250px;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.proprietario {
+    display: flex;
+    margin-left: 220px
+}
+
+.proprietario img {
+    width: 30px;
+}
+
+.resultado_total {
+    margin-top: 40px;
+}
+
+.resultado_text {
+    margin-left: 220px;
+}
+
+
+.resultado_text h2, h4 {
+    color: rgb(48, 48, 218);
+    margin-top: 15px;
+}
