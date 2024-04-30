@@ -106,7 +106,9 @@ section p {
 
 .proprietario {
     display: flex;
-    margin-left: 220px
+    margin-left: 220px;
+    margin-top: 40px;
+    font-size: 17px;
 }
 
 .proprietario img {
@@ -122,7 +124,12 @@ section p {
 }
 
 
-.resultado_text h2, h4 {
+.resultado_text h2 {
     color: rgb(48, 48, 218);
     margin-top: 15px;
+    font-size: 20px;
+}
+
+.resultado_text h4 {
+    color: #1f1f1f;
 }
